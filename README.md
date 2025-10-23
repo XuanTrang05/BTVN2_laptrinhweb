@@ -96,3 +96,61 @@ GHI CHÚ:
 ==============================
 DEADLINE: 26/10/2025
 ==============================
+## BÀI LÀM
+2.1. Cài đặt Apache web server:
+- Truy cập trang chủ của apache để cài đặt
+  <img width="1920" height="1080" alt="Screenshot 2025-10-21 210216" src="https://github.com/user-attachments/assets/ee423006-a7d9-407c-a381-99ed58166bc7" />
+  <img width="1920" height="1080" alt="Screenshot 2025-10-21 210327" src="https://github.com/user-attachments/assets/bd4fb93a-475e-41b9-b228-32ebcedc97c2" />
+-  Chọn bộ xử lí phù hợp với máy để tải xuống
+<img width="1919" height="1079" alt="Screenshot 2025-10-21 210451" src="https://github.com/user-attachments/assets/9543eddf-8054-4bbc-9646-35f7d47b9098" />
+- Giải nén tại ổ D
+   <img width="1178" height="889" alt="image" src="https://github.com/user-attachments/assets/e5d41847-aa43-46da-a3dc-1b4186fc6728" />
+- Cấu hình file D:\Apache24\conf\httpd.conf
+
+
+-
+-
+
+
+-
+2.2 Cài đặt nodejs và nodered => Dùng làm backend:
+- Cài đặt nodejs:
+<img width="1920" height="1080" alt="Screenshot 2025-10-22 225420" src="https://github.com/user-attachments/assets/bbc12b61-0f87-4755-bf91-3675f9951752" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-22 225435" src="https://github.com/user-attachments/assets/d56ba571-f5eb-4ecd-a525-752edf9570ec" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-22 225505" src="https://github.com/user-attachments/assets/3a67ae71-aa04-4255-8d64-895ed9db9978" />
+- Chọn tải xuống ở ổ D
+- <img width="1920" height="1080" alt="Screenshot 2025-10-22 225515" src="https://github.com/user-attachments/assets/cb544f58-f978-4094-b0a2-da02e09cf95d" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-22 225535" src="https://github.com/user-attachments/assets/4e2fdb22-8118-4d04-ac03-85496007ad3e" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-22 225547" src="https://github.com/user-attachments/assets/c5f6a43f-3d50-45e6-aa35-0092dfdc1bba" />
+- Thư mục được cài đặt vào ổ D
+<img width="956" height="1017" alt="image" src="https://github.com/user-attachments/assets/4ed7c12d-7102-4497-a35f-e51c96ad3737" />
+-
+-
+-
+
+
+
+
+
+2.3
+-
+
+
+-
+-
+-
+2.4: Cài đặt thư viên trên nodered
+- truy cập giao diện nodered bằng url: http://localhost:1880
+<img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/e5b5c69d-e85a-48dc-8ea7-4819ca100583" />
+- cài đặt các thư viện: node-red-contrib-mssql-plus, node-red-node-mysql, node-red-contrib-telegrambot, node-red-contrib-moment, node-red-contrib-influxdb, node-red-contrib-duckdns, node-red-contrib-cron-plus
+<img width="1920" height="1080" alt="Screenshot 2025-10-23 003650" src="https://github.com/user-attachments/assets/d6606ed9-9f35-463e-8c15-0b0e3c8789ea" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-23 003756" src="https://github.com/user-attachments/assets/4115ef8a-e49c-40af-a68b-865ea471a282" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-23 003839" src="https://github.com/user-attachments/assets/467db682-4ed0-4d93-b243-bf015c08e274" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-23 003947" src="https://github.com/user-attachments/assets/4a6e714b-c11b-4b0f-b684-63c5e8adeef5" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-23 004030" src="https://github.com/user-attachments/assets/7853d875-9126-48ac-ba22-2f80be425452" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-23 004111" src="https://github.com/user-attachments/assets/a8dd26db-c598-434b-8231-28ad70d5bef8" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-23 004145" src="https://github.com/user-attachments/assets/b0ab977f-eca9-4e67-b702-44de4e4d1d15" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-23 004219" src="https://github.com/user-attachments/assets/af3cf941-ed79-48a9-bc67-30b7d7b6f643" />
+
+
+
