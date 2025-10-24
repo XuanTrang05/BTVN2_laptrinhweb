@@ -135,12 +135,6 @@ DEADLINE: 26/10/2025
 <img width="956" height="1017" alt="image" src="https://github.com/user-attachments/assets/4ed7c12d-7102-4497-a35f-e51c96ad3737" />
 -sử dụng file `c:\WINDOWS\SYSTEM32\Drivers\etc\hosts` để fake ip 127.0.0.1 cho domain
 <img width="960" height="1079" alt="image" src="https://github.com/user-attachments/assets/17282224-229f-4528-8774-a3429cce2497" />
-
-
-
-
-
-
 2.3
 -
 
