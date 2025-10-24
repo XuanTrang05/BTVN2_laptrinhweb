@@ -99,7 +99,9 @@ DEADLINE: 26/10/2025
 ## BÀI LÀM
 2.1. Cài đặt Apache web server:
 - Truy cập trang chủ của apache để cài đặt
+- ấn download
   <img width="1920" height="1080" alt="Screenshot 2025-10-21 210216" src="https://github.com/user-attachments/assets/ee423006-a7d9-407c-a381-99ed58166bc7" />
+  -
   <img width="1920" height="1080" alt="Screenshot 2025-10-21 210327" src="https://github.com/user-attachments/assets/bd4fb93a-475e-41b9-b228-32ebcedc97c2" />
 -  Chọn bộ xử lí phù hợp với máy để tải xuống
 <img width="1919" height="1079" alt="Screenshot 2025-10-21 210451" src="https://github.com/user-attachments/assets/9543eddf-8054-4bbc-9646-35f7d47b9098" />
