@@ -117,6 +117,8 @@ DEADLINE: 26/10/2025
 <img width="598" height="187" alt="image" src="https://github.com/user-attachments/assets/5db486fc-74c3-47f7-897f-30d2cea1a035" />
 - Cấu hình D:Apache24\conf\extra\httpd-vhosts.conf
 <img width="956" height="1079" alt="image" src="https://github.com/user-attachments/assets/caaff020-fd54-44dd-80e8-eae111de0334" />
+-sử dụng file `c:\WINDOWS\SYSTEM32\Drivers\etc\hosts` để fake ip 127.0.0.1 cho domain
+<img width="960" height="1079" alt="image" src="https://github.com/user-attachments/assets/17282224-229f-4528-8774-a3429cce2497" />
 - tạo foder với họ và tên mình trong mục apache, sau đó tạo file index dươis dạng txt,
 <img width="589" height="403" alt="image" src="https://github.com/user-attachments/assets/e9c5eb2d-47a0-42be-ba7a-fdc140555c30" />
 - thao tác dòng lệnh trên file `D:\Apache24\bin\httpd.exe` với các tham số `-k install` và `-k start` để cài đặt và khởi động web server apache.
@@ -133,8 +135,6 @@ DEADLINE: 26/10/2025
 <img width="1920" height="1080" alt="Screenshot 2025-10-22 225547" src="https://github.com/user-attachments/assets/c5f6a43f-3d50-45e6-aa35-0092dfdc1bba" />
 - Thư mục được cài đặt vào ổ D
 <img width="956" height="1017" alt="image" src="https://github.com/user-attachments/assets/4ed7c12d-7102-4497-a35f-e51c96ad3737" />
--sử dụng file `c:\WINDOWS\SYSTEM32\Drivers\etc\hosts` để fake ip 127.0.0.1 cho domain
-<img width="960" height="1079" alt="image" src="https://github.com/user-attachments/assets/17282224-229f-4528-8774-a3429cce2497" />
 2.3
 -
 
