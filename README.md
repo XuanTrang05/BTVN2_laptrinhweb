@@ -99,22 +99,29 @@ DEADLINE: 26/10/2025
 ## BÀI LÀM
 2.1. Cài đặt Apache web server:
 - Truy cập trang chủ của apache để cài đặt
-- ấn download
+- ấn download -> a number of  third party vendors
   <img width="1920" height="1080" alt="Screenshot 2025-10-21 210216" src="https://github.com/user-attachments/assets/ee423006-a7d9-407c-a381-99ed58166bc7" />
-  -
   <img width="1920" height="1080" alt="Screenshot 2025-10-21 210327" src="https://github.com/user-attachments/assets/bd4fb93a-475e-41b9-b228-32ebcedc97c2" />
 -  Chọn bộ xử lí phù hợp với máy để tải xuống
 <img width="1919" height="1079" alt="Screenshot 2025-10-21 210451" src="https://github.com/user-attachments/assets/9543eddf-8054-4bbc-9646-35f7d47b9098" />
 - Giải nén tại ổ D
-   <img width="1178" height="889" alt="image" src="https://github.com/user-attachments/assets/e5d41847-aa43-46da-a3dc-1b4186fc6728" />
-- Cấu hình file D:\Apache24\conf\httpd.conf
-
-
--
--
-
-
--
+   <img width="1203" height="1079" alt="image" src="https://github.com/user-attachments/assets/bd076556-3e62-45e8-a86c-e94a35ffcd0d" />
+- Cấu hình file D:\Apache24\conf\httpd.conf .
+  <img width="940" height="509" alt="image" src="https://github.com/user-attachments/assets/3386369c-44aa-4809-9061-ec90bead6f59" />
+  <img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/d906af51-2afb-4d92-8fd6-096c3f1aca11" />
+- đổi SeverName www.example.com:80 thành ServerName localhost:80f
+- <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a9c09495-32cd-41f6-a9d7-a7c1d769125a" />
+- đổi Define SRVROOT "c:/Apache24 thành Define SRVROOT "D:/Apache24"
+<img width="490" height="224" alt="image" src="https://github.com/user-attachments/assets/259fee55-e425-4681-bd8a-85e636ef382f" />
+- xóa dấu # tại phần Include conf/extra/httpd-vhosts.conf
+<img width="598" height="187" alt="image" src="https://github.com/user-attachments/assets/5db486fc-74c3-47f7-897f-30d2cea1a035" />
+- Cấu hình D:Apache24\conf\extra\httpd-vhosts.conf
+<img width="956" height="1079" alt="image" src="https://github.com/user-attachments/assets/caaff020-fd54-44dd-80e8-eae111de0334" />
+- tạo foder với họ và tên mình trong mục apache, sau đó tạo file index dươis dạng txt,
+<img width="589" height="403" alt="image" src="https://github.com/user-attachments/assets/e9c5eb2d-47a0-42be-ba7a-fdc140555c30" />
+- thao tác dòng lệnh trên file `D:\Apache24\bin\httpd.exe` với các tham số `-k install` và `-k start` để cài đặt và khởi động web server apache.
+- <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/c9f67fb8-40d6-40ae-afaf-e4a1ecb3e0e7" />
+<img width="955" height="1079" alt="image" src="https://github.com/user-attachments/assets/171f1992-8cbf-4737-915c-8aad5507d1ed" />
 2.2 Cài đặt nodejs và nodered => Dùng làm backend:
 - Cài đặt nodejs:
 <img width="1920" height="1080" alt="Screenshot 2025-10-22 225420" src="https://github.com/user-attachments/assets/bbc12b61-0f87-4755-bf91-3675f9951752" />
@@ -126,9 +133,9 @@ DEADLINE: 26/10/2025
 <img width="1920" height="1080" alt="Screenshot 2025-10-22 225547" src="https://github.com/user-attachments/assets/c5f6a43f-3d50-45e6-aa35-0092dfdc1bba" />
 - Thư mục được cài đặt vào ổ D
 <img width="956" height="1017" alt="image" src="https://github.com/user-attachments/assets/4ed7c12d-7102-4497-a35f-e51c96ad3737" />
--
--
--
+-sử dụng file `c:\WINDOWS\SYSTEM32\Drivers\etc\hosts` để fake ip 127.0.0.1 cho domain
+<img width="960" height="1079" alt="image" src="https://github.com/user-attachments/assets/17282224-229f-4528-8774-a3429cce2497" />
+
 
 
 
