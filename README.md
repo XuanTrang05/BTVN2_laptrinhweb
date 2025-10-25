@@ -143,9 +143,10 @@ DEADLINE: 26/10/2025
 - Thư mục được cài đặt vào ổ D
 <img width="956" height="1017" alt="image" src="https://github.com/user-attachments/assets/4ed7c12d-7102-4497-a35f-e51c96ad3737" />
 - cài đặt nodered
--
--
-
+-<img width="1920" height="1080" alt="Screenshot 2025-10-22 230253" src="https://github.com/user-attachments/assets/42ba552c-c022-4b23-97e3-a36f2291c255" />
+- khởi động nodered  :
+<img width="1920" height="1080" alt="Screenshot 2025-10-22 234713" src="https://github.com/user-attachments/assets/9e196c47-c591-4c10-9991-fb7cef989268" />
+- <img width="1917" height="1079" alt="Screenshot 2025-10-23 122702" src="https://github.com/user-attachments/assets/02d6ac0f-9c81-4dfa-aa2a-87ae24f43901" />
 2.3. Tạo csdl tuỳ ý trên mssql (sql server 2022)
 <img width="643" height="202" alt="image" src="https://github.com/user-attachments/assets/9ca668d1-225b-4966-88c8-da7b82543338" />
 2.4: Cài đặt thư viên trên nodered
@@ -188,7 +189,37 @@ DEADLINE: 26/10/2025
 - kết quả
 - <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/90782cf5-f4fb-43db-a19c-1f89950bee58" />
 2.7 
+Đã hiểu quá trình cài đặt các phần mềm và các thư viện:
 
+Em đã nắm rõ các bước cài đặt và cấu hình từng thành phần riêng biệt. Em hiểu cách cấu hình Apache (qua file httpd.conf, httpd-vhosts.conf và file hosts của Windows) để tạo một website local với domain tùy chỉnh.
+
+Em cũng đã hiểu quy trình cài đặt Node.js và cách dùng npm để cài đặt một gói (package) global như Node-RED vào một thư mục cụ thể.
+
+Em đã học được cách sửu dụng một công cụ bên ngoài (nssm.exe) để đăng ký một script (file .cmd) thành một dịch vụ (Service) của Windows, giúp Node-RED có thể tự động chạy nền và khởi động cùng máy tính.
+
+Em đã biết cách truy cập vào giao diện Node-RED để cài đặt thêm các palette (thư viện) cần thiết và cách cấu hình bảo mật (file settings.js) để yêu cầu đăng nhập.
+
+Đã hiểu cách sử dụng Node-RED để tạo API back-end:
+
+Em đã hiểu rõ khái niệm "flow" (luồng) trong Node-RED. Bằng cách kết hợp các node có sẵn, em đã tạo được một API hoàn chỉnh.
+
+Em biết dùng node http in để tạo một endpoint (điểm cuối) API với phương thức (GET) và URL (ví dụ: /timkiem).
+
+Em biết dùng node function để xử lý logic (ví dụ: lấy tham số từ msg.req.query và chuẩn bị câu lệnh truy vấn).
+
+Em đã kết nối và sử dụng thành công node MSSQL để thực thi truy vấn tới cơ sở dữ liệu SQL Server.
+
+Em biết dùng node http response để trả kết quả về cho client, bao gồm việc thiết lập Status Code (200) và Header (Content-Type: application/json).
+
+Đã hiểu cách front-end tương tác với back-end:
+
+Em đã hiểu rõ mô hình Client-Server cơ bản. Front-end (file index.html và fullname.js chạy trên trình duyệt, được phục vụ bởi Apache) đóng vai trò là Client. Back-end (luồng Node-RED chạy trên server) đóng vai trò là Server.
+
+Em đã biết cách dùng JavaScript (trong file fullname.js) để lắng nghe sự kiện (như click nút), lấy dữ liệu từ form HTML.
+
+Em đã sử dụng thành công hàm fetch() (hoặc AJAX/XMLHttpRequest) trong JavaScript để gửi một yêu cầu HTTP (đến API http://localhost:1880/timkiem) kèm theo dữ liệu (query parameters).
+
+Khi nhận được phản hồi (response) từ API (dưới dạng chuỗi JSON), em đã biết cách phân tích (parse) chuỗi JSON đó thành đối tượng JavaScript và dùng các hàm DOM (như document.getElementById().innerHTML...) để cập nhật và hiển thị kết quả lên giao diện index.html.
 
 
 
