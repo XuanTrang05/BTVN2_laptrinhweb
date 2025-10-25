@@ -108,14 +108,18 @@ DEADLINE: 26/10/2025
    <img width="1203" height="1079" alt="image" src="https://github.com/user-attachments/assets/bd076556-3e62-45e8-a86c-e94a35ffcd0d" />
 - Cấu hình file D:\Apache24\conf\httpd.conf .
   <img width="940" height="509" alt="image" src="https://github.com/user-attachments/assets/3386369c-44aa-4809-9061-ec90bead6f59" />
-  <img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/d906af51-2afb-4d92-8fd6-096c3f1aca11" />
 - đổi SeverName www.example.com:80 thành ServerName localhost:80f
+  
 - <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a9c09495-32cd-41f6-a9d7-a7c1d769125a" />
 - đổi Define SRVROOT "c:/Apache24 thành Define SRVROOT "D:/Apache24"
+
 <img width="490" height="224" alt="image" src="https://github.com/user-attachments/assets/259fee55-e425-4681-bd8a-85e636ef382f" />
 - xóa dấu # tại phần Include conf/extra/httpd-vhosts.conf
+  
 <img width="598" height="187" alt="image" src="https://github.com/user-attachments/assets/5db486fc-74c3-47f7-897f-30d2cea1a035" />
 - Cấu hình D:Apache24\conf\extra\httpd-vhosts.conf
+- 
+- <img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/d906af51-2afb-4d92-8fd6-096c3f1aca11" />
 <img width="956" height="1079" alt="image" src="https://github.com/user-attachments/assets/caaff020-fd54-44dd-80e8-eae111de0334" />
 -sử dụng file `c:\WINDOWS\SYSTEM32\Drivers\etc\hosts` để fake ip 127.0.0.1 cho domain
 <img width="960" height="1079" alt="image" src="https://github.com/user-attachments/assets/17282224-229f-4528-8774-a3429cce2497" />
