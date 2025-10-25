@@ -203,7 +203,7 @@ Em đã biết cách truy cập vào giao diện Node-RED để cài đặt thê
 
 Em đã hiểu rõ khái niệm "flow" (luồng) trong Node-RED. Bằng cách kết hợp các node có sẵn, em đã tạo được một API hoàn chỉnh.
 
-Em biết dùng node http in để tạo một endpoint (điểm cuối) API với phương thức (GET) và URL (ví dụ: /timkiem).
+Em biết dùng node http in để tạo một endpoint (điểm cuối) API với phương thức (GET) và URL.
 
 Em biết dùng node function để xử lý logic (ví dụ: lấy tham số từ msg.req.query và chuẩn bị câu lệnh truy vấn).
 
@@ -213,9 +213,9 @@ Em biết dùng node http response để trả kết quả về cho client, bao 
 
 Đã hiểu cách front-end tương tác với back-end:
 
-Em đã hiểu rõ mô hình Client-Server cơ bản. Front-end (file index.html và fullname.js chạy trên trình duyệt, được phục vụ bởi Apache) đóng vai trò là Client. Back-end (luồng Node-RED chạy trên server) đóng vai trò là Server.
+Em đã hiểu rõ mô hình Client-Server cơ bản. Front-end (file index.html và js chạy trên trình duyệt, được phục vụ bởi Apache) đóng vai trò là Client. Back-end (luồng Node-RED chạy trên server) đóng vai trò là Server.
 
-Em đã biết cách dùng JavaScript (trong file fullname.js) để lắng nghe sự kiện (như click nút), lấy dữ liệu từ form HTML.
+Em đã biết cách dùng JavaScript (trong file hoangthixuantrang.js) để lắng nghe sự kiện (như click nút), lấy dữ liệu từ form HTML.
 
 Em đã sử dụng thành công hàm fetch() (hoặc AJAX/XMLHttpRequest) trong JavaScript để gửi một yêu cầu HTTP (đến API http://localhost:1880/timkiem) kèm theo dữ liệu (query parameters).
 
