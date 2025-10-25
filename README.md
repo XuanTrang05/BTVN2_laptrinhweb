@@ -114,18 +114,21 @@ DEADLINE: 26/10/2025
 - đổi Define SRVROOT "c:/Apache24 thành Define SRVROOT "D:/Apache24"
 
 <img width="490" height="224" alt="image" src="https://github.com/user-attachments/assets/259fee55-e425-4681-bd8a-85e636ef382f" />
+
 - xóa dấu # tại phần Include conf/extra/httpd-vhosts.conf
   
 <img width="598" height="187" alt="image" src="https://github.com/user-attachments/assets/5db486fc-74c3-47f7-897f-30d2cea1a035" />
+
 - Cấu hình D:Apache24\conf\extra\httpd-vhosts.conf
-- 
 - <img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/d906af51-2afb-4d92-8fd6-096c3f1aca11" />
 <img width="956" height="1079" alt="image" src="https://github.com/user-attachments/assets/caaff020-fd54-44dd-80e8-eae111de0334" />
 -sử dụng file `c:\WINDOWS\SYSTEM32\Drivers\etc\hosts` để fake ip 127.0.0.1 cho domain
 <img width="960" height="1079" alt="image" src="https://github.com/user-attachments/assets/17282224-229f-4528-8774-a3429cce2497" />
 - tạo foder với họ và tên mình trong mục apache, sau đó tạo file index dươis dạng txt,
 <img width="589" height="403" alt="image" src="https://github.com/user-attachments/assets/e9c5eb2d-47a0-42be-ba7a-fdc140555c30" />
+
 - thao tác dòng lệnh trên file `D:\Apache24\bin\httpd.exe` với các tham số `-k install` và `-k start` để cài đặt và khởi động web server apache.
+  
 - <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/c9f67fb8-40d6-40ae-afaf-e4a1ecb3e0e7" />
 <img width="955" height="1079" alt="image" src="https://github.com/user-attachments/assets/171f1992-8cbf-4737-915c-8aad5507d1ed" />
 2.2 Cài đặt nodejs và nodered => Dùng làm backend:
@@ -139,13 +142,12 @@ DEADLINE: 26/10/2025
 <img width="1920" height="1080" alt="Screenshot 2025-10-22 225547" src="https://github.com/user-attachments/assets/c5f6a43f-3d50-45e6-aa35-0092dfdc1bba" />
 - Thư mục được cài đặt vào ổ D
 <img width="956" height="1017" alt="image" src="https://github.com/user-attachments/assets/4ed7c12d-7102-4497-a35f-e51c96ad3737" />
-2.3
+- cài đặt nodered
+-
 -
 
-
--
--
--
+2.3. Tạo csdl tuỳ ý trên mssql (sql server 2022)
+<img width="643" height="202" alt="image" src="https://github.com/user-attachments/assets/9ca668d1-225b-4966-88c8-da7b82543338" />
 2.4: Cài đặt thư viên trên nodered
 - truy cập giao diện nodered bằng url: http://localhost:1880
 <img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/e5b5c69d-e85a-48dc-8ea7-4819ca100583" />
@@ -158,6 +160,43 @@ DEADLINE: 26/10/2025
 <img width="1920" height="1080" alt="Screenshot 2025-10-23 004111" src="https://github.com/user-attachments/assets/a8dd26db-c598-434b-8231-28ad70d5bef8" />
 <img width="1920" height="1080" alt="Screenshot 2025-10-23 004145" src="https://github.com/user-attachments/assets/b0ab977f-eca9-4e67-b702-44de4e4d1d15" />
 <img width="1920" height="1080" alt="Screenshot 2025-10-23 004219" src="https://github.com/user-attachments/assets/af3cf941-ed79-48a9-bc67-30b7d7b6f643" />
+- Sửa file `D:\nodejs\nodered\work\settings.js` : 
+  tìm đến chỗ adminAuth, bỏ comment # ở đầu dòng (8 dòng), thay chuỗi mã hoá mật khẩu bằng chuỗi mới
+    adminAuth: {
+        type: "credentials",
+        users: [{
+            username: "admin",
+            password: "chuỗi_mã_hoá_mật_khẩu",
+            permissions: "*"
+        }]
+    },   
+   <img width="735" height="310" alt="Screenshot 2025-10-24 101715" src="https://github.com/user-attachments/assets/772fa427-185c-4947-aaee-49ead0c42ed2" />
+- với mã hoá mật khẩu có thể thiết lập bằng tool: https://tms.tnut.edu.vn/pw.php
+<img width="1252" height="1079" alt="Screenshot 2025-10-24 102530" src="https://github.com/user-attachments/assets/300a5da1-227e-40b8-a38b-d8e4313c324b" />
+- chạy lại nodered
+<img width="1156" height="706" alt="Screenshot 2025-10-24 102942" src="https://github.com/user-attachments/assets/7b02eeea-fd3c-4b9a-8355-c8a4ca234e07" />
+- nodered sẽ yêu cầu nhập mật khẩu mới vào được giao diện cho admin tại: http://localhost:1880
+<img width="965" height="633" alt="Screenshot 2025-10-24 103157" src="https://github.com/user-attachments/assets/7d4206d0-eb74-4cd4-900c-0d94f5639a64" />
+2.5. tạo api back-end bằng nodered:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/df988ea9-9c05-44f8-9a45-b5593fd8af99" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad3069f7-fdf7-4781-b3b2-4cd74fdf5625" />
+2.6. Tạo giao diện front-end
+- html form gồm các file : index.html, fullname.js, fullname.css
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e85e44f9-a0eb-4a85-8bad-c2fb4e80991c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/110f65e5-9b2f-4519-9150-38cae5e0b2fa" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fcd4e6ba-7d05-4a1b-8bfe-a6522b7e2eee" />
+- kết quả
+- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/90782cf5-f4fb-43db-a19c-1f89950bee58" />
+2.7 
+
+
+
+
+
+
+  
+
+  
 
 
 
